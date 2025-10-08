@@ -20,7 +20,7 @@ torch.cuda.empty_cache()
 # Output directory for results and checkpoint location
 this_file_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "Created Artificial Data")
 model_path = "Models"
-model_name = 'model_no_add_bs2_acc1.pt'
+model_name = 'model_add.pt'
 
 # ======================================================
 # Load Synthetic Dataset

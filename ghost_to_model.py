@@ -68,7 +68,7 @@ print("sim_fw_full shape:", sim_fw_full.shape)
 # -------------------------------------------------------
 model = Model().to(device)
 checkpoint = torch.load(
-    os.path.join(model_path, 'weights_sim_pad/model_no_add_bs2_acc1.pt'),
+    os.path.join(model_path, 'Models/model_add.pt'),
     map_location=device
 )
 model.load_state_dict(checkpoint)
